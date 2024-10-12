@@ -10,4 +10,4 @@ elif x < 0 and y < 0:
 else:
     quadrant = 0
     
-print("The point lies in Quadrant", quadrant)
+print(f"The point lies in Quadrant {quadrant}")
