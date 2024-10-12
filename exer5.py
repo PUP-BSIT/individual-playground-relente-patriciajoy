@@ -1,8 +1,7 @@
-character = input("Enter a character: ")
+character = str(input("Enter a character: "))
 
-character = character.lower()
-
-if character in 'aeiou':
-    print("The character is a vowel.")
+if (character == 'a' or character == 'e' or
+        character == 'i' or character == 'o' or character == 'u'): 
+        print("The character is a vowel.") 
 else:
-    print("The character is a consonant.b")
+    print("The character is a consonant.")
